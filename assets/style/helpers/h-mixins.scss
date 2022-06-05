@@ -1,0 +1,21 @@
+//
+
+@mixin mobile-view {
+    @media (max-width: 1023px) { @content; }
+}
+
+@mixin mobile-small-view {
+    @media (max-width: 480px) { @content; }
+}
+
+@mixin touch-device {
+    @media (pointer: coarse) { @content; }
+}
+
+@mixin dark-theme {
+    @media (prefers-color-scheme: dark) { @content; }
+}
+
+@mixin print {
+    @media print { @content; }
+}

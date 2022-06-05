@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="52" viewBox="0 0 15 26">
+  <style>
+    @media (prefers-color-scheme: dark) { 
+      .cls-1 {
+        fill: #fff;
+      } 
+    }
+  </style>
+  <path class="cls-1" fill="#001935" fill-rule="evenodd" d="M1130.57,457c-3.98,0-6.95-2.012-6.95-6.825v-7.708H1120v-4.173a7.77,7.77,0,0,0,5.84-7.295h4.14v6.618h4.83v4.85h-4.83v6.712c0,2.012,1.03,2.707,2.68,2.707H1135V457h-4.43Z" transform="translate(-1120 -431)"/>
+</svg>

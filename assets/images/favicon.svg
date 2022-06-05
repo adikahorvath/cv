@@ -1,0 +1,23 @@
+<svg id="favico" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #111112;
+        fill-rule: evenodd;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .cls-2 {
+          fill: #fff;
+        }
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="32" height="32"/>
+  <path id="CV" class="cls-2" d="M280.987,716.065v2.86c0,3.325,2.19,5.077,5.382,5.077,3.433,0,5.122-1.77,5.122-4.541v-0.429h-2.45v0.429c0,1.413-.723,2.4-2.672,2.4a2.661,2.661,0,0,1-2.932-2.86v-3a2.771,2.771,0,0,1,2.932-2.86c1.782,0,2.672.966,2.672,2.4v0.429h2.45v-0.429c0-2.789-1.837-4.541-5.122-4.541S280.987,712.954,280.987,716.065Zm10.946-4.827,3.6,12.514h3.86l3.6-12.514H300.47l-2.876,10.422h-0.26l-2.877-10.422h-2.524Z" transform="translate(-276 -701)"/>
+</svg>
