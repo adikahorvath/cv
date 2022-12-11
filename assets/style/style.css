@@ -538,6 +538,9 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+  .c-job--billingo .c-job--company-image path {
+    fill: var(--color-white);
+  }
   .c-job--graphisoft .c-job--company-image path {
     fill: var(--color-white);
   }

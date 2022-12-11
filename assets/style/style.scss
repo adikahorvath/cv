@@ -498,6 +498,14 @@ a {
 	}
 
 	@include dark-theme {
+		&--billingo {
+			.c-job--company-image {
+				path {
+					fill: var(--color-white);
+				}
+			}
+		}
+
 		&--graphisoft {
 			.c-job--company-image {
 				path {
