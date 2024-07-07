@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="52" viewBox="0 0 30 26">
-  <path fill="#0061ff" fill-rule="evenodd" d="M1185.5,440.75l-7.5-4.875,7.5-4.875,7.5,4.875Zm7.5,4.875-7.5,4.875-7.5-4.875-7.5,4.875-7.5-4.875,7.5-4.875,7.5,4.875,7.5-4.875Zm-30-9.75,7.5-4.875,7.5,4.875-7.5,4.875Zm22.5,16.25L1178,457l-7.5-4.875,7.5-4.875Z" transform="translate(-1163 -431)"/>
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45 24.5L30 14.75L45 5L60 14.75L45 24.5ZM60 34.25L45 44L30 34.25L15 44L0 34.25L15 24.5L30 34.25L45 24.5L60 34.25ZM0 14.75L15 5L30 14.75L15 24.5L0 14.75ZM45 47.25L30 57L15 47.25L30 37.5L45 47.25Z" fill="#0061FF"/>
 </svg>
