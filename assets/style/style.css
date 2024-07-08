@@ -34,14 +34,6 @@ body {
   margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html,
-  body {
-    background: var(--color-black);
-    color: var(--color-white);
-  }
-}
-
 h1,
 h2,
 h3 {
@@ -67,12 +59,6 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  a {
-    color: var(--color-white);
-  }
-}
-
 a:hover {
   color: var(--color-blue);
 }
@@ -96,21 +82,8 @@ a:hover {
   transition: background .2s;
 }
 
-@media (prefers-color-scheme: dark) {
-  .button {
-    background: var(--color-blue);
-    color: var(--color-white);
-  }
-}
-
 .button:hover {
   background: #daecff;
-}
-
-@media (prefers-color-scheme: dark) {
-  .button:hover {
-    background: #2e81f5;
-  }
 }
 
 .c-wrap {
@@ -137,8 +110,14 @@ a:hover {
 .c-block h6 {
   font-size: 15px;
   border-top: 1px solid var(--color-lt-grey);
-  padding-top: 25px;
+  padding-top: 60px;
   margin-bottom: 15px;
+}
+
+@media (max-width: 1023px) {
+  .c-block h6 {
+    padding: 40px 20px 0;
+  }
 }
 
 .c-profile {
@@ -169,12 +148,6 @@ a:hover {
     text-align: center;
     width: 100%;
     border-bottom: 1px solid var(--color-lt-grey);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .c-profile {
-    border-color: #252526;
   }
 }
 
@@ -239,9 +212,10 @@ a:hover {
 
 .c-profile__contact {
   border-top: 1px solid var(--color-lt-grey);
-  margin: 20px -25px 0;
-  padding: 20px 25px 0;
+  margin: 20px 0 0;
+  padding: 20px 0 0;
   clear: both;
+  font-weight: 600;
 }
 
 .c-profile svg {
@@ -256,12 +230,6 @@ a:hover {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .c-profile .i-tumblr path {
-    fill: var(--color-white);
-  }
-}
-
 .c-tab {
   font-size: 14px;
   padding-left: 40px;
@@ -269,14 +237,6 @@ a:hover {
   border-bottom: 1px solid var(--color-lt-grey);
   height: 80px;
   background: var(--color-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  .c-tab {
-    background: var(--color-black);
-    color: var(--color-white);
-    border-color: #252526;
-  }
 }
 
 @media (max-width: 1023px) {
@@ -320,12 +280,6 @@ a:hover {
   border-color: var(--color-lt-grey);
 }
 
-@media (prefers-color-scheme: dark) {
-  .c-tab a:hover {
-    border-color: #252526;
-  }
-}
-
 .c-note {
   background: #F2F4F6;
   border-radius: var(--border-radius);
@@ -343,23 +297,14 @@ a:hover {
 
 @media (max-width: 1023px) {
   .c-job:last-of-type {
-    border-bottom: 0;
-    padding-bottom: 100px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .c-job {
-    background: var(--color-black);
-    color: var(--color-white);
-    border-color: #252526;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 1023px) {
   .c-job {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0;
@@ -427,15 +372,6 @@ a:hover {
   margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .c-job--billingo .c-job--company-image path {
-    fill: var(--color-white);
-  }
-  .c-job--graphisoft .c-job--company-image path {
-    fill: var(--color-white);
-  }
-}
-
 .c-tag {
   border: 1px solid var(--color-lt-grey);
   color: var(--color-grey);
@@ -448,22 +384,9 @@ a:hover {
   transition: background .2s;
 }
 
-@media (prefers-color-scheme: dark) {
-  .c-tag {
-    background: #252526;
-    color: var(--color-white);
-  }
-}
-
 .c-tag:hover {
   border-color: var(--color-dk-grey);
   color: var(--color-grey);
-}
-
-@media (prefers-color-scheme: dark) {
-  .c-tag:hover {
-    background: #323233;
-  }
 }
 
 .c-edu {
@@ -472,6 +395,12 @@ a:hover {
 
 .c-edu:last-of-type {
   margin-bottom: 80px;
+}
+
+@media (max-width: 1023px) {
+  .c-edu {
+    padding: 0 20px;
+  }
 }
 
 .external-link {

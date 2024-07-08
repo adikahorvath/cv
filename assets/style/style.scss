@@ -35,11 +35,6 @@ body {
 	font-weight: 400;
 	line-height: 150%;
 	margin: 0;
-
-	@include dark-theme {
-		background: var(--color-black);
-		color: var(--color-white);
-	}
 }
 
 h1,
@@ -66,10 +61,6 @@ a {
 	color: var(--color-black);
 	text-decoration: none;
 
-	@include dark-theme {
-		color: var(--color-white);
-	}
-
 	&:hover {
 		color: var(--color-blue);
 	}
@@ -91,17 +82,8 @@ a {
 	width: 100%;
 	transition: background .2s;
 
-	@include dark-theme {
-		background: var(--color-blue);
-		color: var(--color-white);
-	}
-
 	&:hover {
 		background: rgb(218, 236, 255);
-
-		@include dark-theme {
-			background: #2e81f5;
-		}
 	}
 }
 
@@ -126,8 +108,12 @@ a {
 	h6 {
 		font-size: 15px;
 		border-top: 1px solid var(--color-lt-grey);
-		padding-top: 25px;
+		padding-top: 60px;
 		margin-bottom: 15px;
+
+		@include mobile-view {
+			padding: 40px 20px 0;
+		}
 	}
 }
 
@@ -155,10 +141,6 @@ a {
 		text-align: center;
 		width: 100%;
 		border-bottom: 1px solid var(--color-lt-grey);
-	}
-
-	@include dark-theme {
-		border-color: #252526;
 	}
 
 	h2 {
@@ -219,9 +201,11 @@ a {
 
 	&__contact {
 		border-top: 1px solid var(--color-lt-grey);
-		margin: 20px -25px 0;
-		padding: 20px 25px 0;
+		margin: 20px 0 0;
+		padding: 20px 0 0;
 		clear: both;
+
+		font-weight: 600;
 	}
 
 	svg {
@@ -231,14 +215,6 @@ a {
 		@include mobile-view {
 			max-width: 26px;
 			max-height: 26px;
-		}
-	}
-
-	@include dark-theme {
-		.i-tumblr {
-			path {
-				fill: var(--color-white);
-			}
 		}
 	}
 
@@ -253,12 +229,6 @@ a {
 	border-bottom: 1px solid var(--color-lt-grey);
 	height: 80px;
 	background: var(--color-white);
-
-	@include dark-theme {
-		background: var(--color-black);
-		color: var(--color-white);
-		border-color: #252526;
-	}
 
 	@include mobile-view {
 		height: 60px;
@@ -294,10 +264,6 @@ a {
 
         &:hover {
 			border-color: var(--color-lt-grey);
-
-			@include dark-theme {
-				border-color: #252526;
-			}
 		}
     }
 }
@@ -322,20 +288,13 @@ a {
 		margin-bottom: 60px;
 
 		@include mobile-view {
-			border-bottom: 0;
-			padding-bottom: 100px;
+			margin-bottom: 0;
 		}
-	}
-
-	@include dark-theme {
-		background: var(--color-black);
-		color: var(--color-white);
-		border-color: #252526;
 	}
 
 	@include mobile-view {
 		padding-top: 40px;
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 		padding-left: 20px;
 		padding-right: 20px;
 		margin: 0;
@@ -401,24 +360,6 @@ a {
 			margin: 0;
 		}
 	}
-
-	@include dark-theme {
-		&--billingo {
-			.c-job--company-image {
-				path {
-					fill: var(--color-white);
-				}
-			}
-		}
-
-		&--graphisoft {
-			.c-job--company-image {
-				path {
-					fill: var(--color-white);
-				}
-			}
-		}
-	}
 }
 
 //
@@ -435,18 +376,9 @@ a {
     margin-bottom: 5px;
 	transition: background .2s;
 
-	@include dark-theme {
-		background: #252526;
-		color: var(--color-white);
-	}
-
     &:hover {
 		border-color: var(--color-dk-grey);
 		color: var(--color-grey);
-
-		@include dark-theme {
-			background: #323233;
-		}
     }
 }
 
@@ -457,6 +389,10 @@ a {
 
 	&:last-of-type {
 		margin-bottom: 80px;
+	}
+
+	@include mobile-view {
+		padding: 0 20px;
 	}
 }
 
