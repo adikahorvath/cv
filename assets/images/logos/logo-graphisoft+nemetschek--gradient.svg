@@ -1,12 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167.056" height="24.912" viewBox="0 0 167.056 24.912">
   <defs>
-      <style>
-      @media (prefers-color-scheme: dark) {
-        .cls-1 {
-          fill: #fff;
-        }
-      }
-    </style>
     <clipPath id="clip-path">
       <path id="Path_486" data-name="Path 486" d="M27.262,15.665h0a1.668,1.668,0,1,0-3.335,0h0A6.667,6.667,0,1,1,17.255,9V8.993a1.668,1.668,0,1,0,0-3.335h0A10.007,10.007,0,1,0,27.262,15.665Z" transform="translate(-7.247 -5.658)" fill="none"/>
     </clipPath>
