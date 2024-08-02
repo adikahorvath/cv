@@ -137,10 +137,9 @@ a {
 		position: static;
 		border: none;
 		height: auto;
-		padding: 100px 20px 40px;
-		text-align: center;
+		float: none;
+		padding: 40px 20px 20px;
 		width: 100%;
-		border-bottom: 1px solid var(--color-lt-grey);
 	}
 
 	h2 {
@@ -181,20 +180,6 @@ a {
 			svg {
 				float: left;
 				margin-right: 10px;
-
-				@include mobile-view {
-					float: none;
-					margin: 0 15px;
-				}
-			}
-
-			@include mobile-view {
-				display: inline-block;
-				margin-bottom: 0;
-
-				span {
-					display: none;
-				}
 			}
 		}
 	}
@@ -204,8 +189,13 @@ a {
 		margin: 20px 0 0;
 		padding: 20px 0 0;
 		clear: both;
-
 		font-weight: 600;
+
+		@include mobile-view {
+			border: none;
+			margin-top: 0;
+			padding-top: 15px;
+		}
 	}
 
 	svg {
@@ -276,6 +266,14 @@ a {
 	padding: 25px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+
+	@include mobile-view {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	@include print {
+		padding: 0;
+	}
 }
 
 //
