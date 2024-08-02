@@ -116,7 +116,8 @@ a:hover {
 
 @media (max-width: 1023px) {
   .c-block h6 {
-    padding: 40px 20px 0;
+    margin: 0 20px;
+    padding: 40px 0 20px;
   }
 }
 
@@ -153,6 +154,12 @@ a:hover {
 .c-profile h2 {
   font-weight: 700;
   font-size: 18px;
+}
+
+@media (max-width: 1023px) {
+  .c-profile h2 {
+    font-size: 22px;
+  }
 }
 
 .c-profile img {
@@ -322,13 +329,6 @@ a:hover {
   line-height: 115%;
   margin-top: 30px;
   margin-bottom: 5px;
-}
-
-@media (max-width: 1023px) {
-  .c-job--title {
-    line-height: 130%;
-    font-size: 26px;
-  }
 }
 
 .c-job--title span {

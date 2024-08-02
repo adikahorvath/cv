@@ -112,7 +112,8 @@ a {
 		margin-bottom: 15px;
 
 		@include mobile-view {
-			padding: 40px 20px 0;
+			margin: 0 20px;
+			padding: 40px 0 20px;
 		}
 	}
 }
@@ -145,6 +146,10 @@ a {
 	h2 {
 		font-weight: 700;
 		font-size: 18px;
+
+		@include mobile-view {
+			font-size: 22px;
+		}
 	}
 
 	img {
@@ -306,11 +311,6 @@ a {
 		line-height: 115%;
 		margin-top: 30px;
 		margin-bottom: 5px;
-
-		@include mobile-view {
-			line-height: 130%;
-			font-size: 26px;
-		}
 
 		span {
 			font-weight: 400;
