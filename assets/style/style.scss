@@ -272,6 +272,11 @@ a {
 	margin-top: 60px;
 	margin-bottom: 20px;
 
+	ul {
+		margin: 0;
+		padding: 0 20px;
+	}
+
 	@include mobile-view {
 		margin-left: 20px;
 		margin-right: 20px;
@@ -372,7 +377,7 @@ a {
 	font-size: 13px;
 	line-height: 120%;
 	padding: 8px 13px;
-    margin-bottom: 5px;
+    margin-top: 5px;
 	transition: background .2s;
 
     &:hover {
