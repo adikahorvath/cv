@@ -121,6 +121,10 @@ a:hover {
   }
 }
 
+.c-block h6 span {
+  font-weight: 300;
+}
+
 .c-profile {
   position: sticky;
   top: 20px;
