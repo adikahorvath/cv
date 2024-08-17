@@ -182,6 +182,7 @@ a:hover {
 .c-profile p {
   font-size: 14px;
   line-height: 150%;
+  margin-top: 0;
   margin-bottom: 25px;
 }
 
@@ -382,7 +383,6 @@ a:hover {
 .c-job ul p {
   color: var(--color-grey);
   font-size: 14px;
-  margin: 0;
 }
 
 .c-tag {
